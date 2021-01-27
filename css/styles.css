@@ -1,0 +1,115 @@
+/*Global Styles
+--------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  color: #080705;
+  box-sizing: border-box;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+a {
+  color: #FFE66D;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 1em;
+}
+
+/*"Global" section styling -- styling applies to all content in <section>, more specific styling will be done with classes in the code blocks below global styles
+--------------------------------------------------*/
+section {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+section h2 {
+  background-color: #cf656c;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+
+/*Profile
+--------------------------------*/
+header {
+  background-color: #702632;
+  color: #C5FFFD;
+  padding: 1em;
+  text-align: center;
+}
+
+/*Projects
+--------------------------------*/
+.projects {
+ background-color: #C5FFFD;
+}
+
+
+.projects a {
+  color: navy;
+}
+
+.projects .btn {
+  color: #C5FFFD;
+  background-color: #EB8A90;
+  text-decoration: none;
+  padding: .25em;
+  border-radius: 4px;
+  margin: .5em;
+
+}
+
+.projects .btn:hover {
+  opacity: .8;
+}
+
+.project-block-one {
+  width: 30%;
+  float: left;
+}
+
+.project-block-two {
+  width: 30%;
+  float: left;
+}
+
+.project-block-three {
+  width: 30%;
+  float: left;
+}
+
+.projects:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Work Experience
+--------------------------------*/
+.work-exp {
+  background-color: #C5FFFD;
+}
+
+/*Education
+--------------------------------*/
+.education {
+  background-color: #C5FFFD;
+}
+
+/*Contact info
+--------------------------------*/
+footer {
+  background-color: #40434E;
+  color: #C5FFFD;
+  padding: 1em;
+}
