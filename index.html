@@ -4,78 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jake Register</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <h1>Jake Register</h1>
-        <h2>Web Development Student</h2>
-
-        <p>Current student at Wake Tech studying Web Development. Learning HTML/CSS/JavaScript along with the XAMPP stack. I love to learn and chat about projects/ideas!</p>
+        <div class="content-wrap">
+          <h1>Jake Register</h1>
+          <h2>Web Development Student</h2>
+  
+          <p>Current student at Wake Tech studying Web Development. Learning HTML/CSS/JavaScript along with the XAMPP stack. I love to learn and chat about projects/ideas!</p>
+        </div>
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. More information can be found at<a class="btn" href="http://www.jakeregister.com" target="_blank">jakeregister.com</a>.</p>
+        <div class="content-wrap">
+          <h2>Featured Projects</h2>
+          <p>View selected projects below. More information, live versions, and source code can be found by clicking the GitHub or Live buttons below each project.</p>
 
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section class="project-block-one">
-          <h3>Home Builder Website</h3>
-          <img src="images/home-builder.png" alt="description of image">
-          <p>Website for a home building company that I created for practice. This is not a copy of their website nor is it live. It provided a good opportunity to practice building something modern, resonsive, and functional. </p>
-        </section>
-        
-          <section class="project-block-two">
-            <h3>JavaScript To-Do List</h3>
-            <img src="images/todo-image-min.png" alt="description of image">
-            <p>Small In-Browser JavaScript to-do list. It will save locally if the browser is closed. I built this following a tutorial to practice JS concepts.</p>
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project">
+            <img src="images/home-builder.png" alt="description of image">
+            <h3>Home Builder Website</h3>
+            <p>Website for a home building company created for practice. This is not a copy of their website but, provided a good opportunity to practice building something modern, resonsive, and functional.</p>
+            <a class="btn" href="" target="_blank">GitHub</a>
+            <a class="btn" href="" target="_blank">Live Site</a>
           </section>
-         
-        <section class="project-block-three">
-          <h3>Vicious Cycles</h3>
-          <img src="images/vicious-cycles.png" alt="description of image">
-          <p>Project for a course I took in Fall 2020 Semester.</p>
-        </section>
+          
+            <section class="project">
+              <img src="images/todo-image-min.png" alt="description of image">
+              <h3>JavaScript To-Do List</h3>
+              <p>Small In-Browser JavaScript to-do list. It will save locally if the browser is closed. I built this following a tutorial to practice JS concepts.</p>
+              <a class="btn" href="" target="_blank">GitHub</a>
+              <a class="btn" href="" target="_blank">Live Site</a>
+            </section>
+          
+          <section class="project">
+            <img src="images/vicious-cycles.png" alt="description of image">
+            <h3>Vicious Cycles</h3>
+            <p>Project for a course I took in Fall 2020 Semester designed to simulate a realistic web design experience. I started by writing a design brief for a fictional business called "Vicious Cycles". From there, I added pages and styling to the site each week. </p>
+            <a class="btn" href="" target="_blank">GitHub</a>
+            <a class="btn" href="" target="_blank">Live Site</a>
+          </section>
+        </div>
         <!-- End of Project block. -->
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-exp">
-        <h2>Work Experience</h2>
-        <p>Nearly 10 years of sales experience and have worked in both inside and outside roles managing client accounts. Skilled in communication, problem-solving, and adapting to changing situations.<p>       
+        <div class="content-wrap">
+          <h2>Work Experience</h2>
+          <p>Nearly 10 years of sales experience and have worked in both inside and outside roles managing client accounts. Skilled in communication, problem-solving, and adapting to changing situations.<p>  
+        </div>     
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class="education">
-        <h2>Education</h2>
+        <div class=" content-wrap">
+          <h2>Education</h2>
 
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>North Carolina State Univ. - Raleigh</h3>
-          <p>Business Management, 2014</p>
+          <!-- Copy this whole <section> block to add more schools. -->
+          <section class="school">
+            <h3>North Carolina State Univ. - Raleigh</h3>
+            <p>Business Management, 2014</p>
+          </section>
+          <section class="school">
+            <h3>Wake Tech Comm. - Raleigh</h3>
+            <p>Web Development, In Progess</p>
         </section>
-        <section>
-          <h3>Wake Tech Comm. - Raleigh</h3>
-          <p>Web Development, In Progess</p>
-        </section>
+        </div>
         <!-- End of School block. -->
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        <h2>Let's Keep in Touch!</h2>
+        <div class="content-wrap">
+          <h2>Let's Keep in Touch!</h2>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul>
+            <li><a href="mailto:email@example.com">email@example.com</a></li>
+            <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+          </ul>
+        </div>
       </footer>
     </main>
   </body>

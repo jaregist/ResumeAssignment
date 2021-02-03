@@ -1,14 +1,41 @@
 /*Global Styles
 --------------------------------*/
-body {
-  margin: 0;
-  padding: 0;
-  color: #080705;
+html {
   box-sizing: border-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #40434E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: 'Sriracha', sans-serif;
+}
+
+h1, h2 {
+  text-shadow: 8px 5px 10px rgba(64,67,78,0.58);
+}
+
+h3 {
+  text-shadow: 8px 5px 10px rgba(196,73,81,0.58);
+}
+
 img {
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 
@@ -20,10 +47,6 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2 {
-  text-align: center;
-  margin: 1em;
-}
 
 /*"Global" section styling -- styling applies to all content in <section>, more specific styling will be done with classes in the code blocks below global styles
 --------------------------------------------------*/
@@ -33,83 +56,98 @@ section {
 }
 
 section h2 {
-  background-color: #cf656c;
-  margin: 0 auto;
   padding: 1em;
+  text-align: center;
+  font-size: 2em;
 }
 
+
+.content-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
 
 /*Profile
 --------------------------------*/
 header {
-  background-color: #702632;
-  color: #C5FFFD;
-  padding: 1em;
-  text-align: center;
+  background-color: #c44951;
+  color: #fff;
+  padding: 2em;
+}
+
+header h1 {
+  font-size: 3em;
 }
 
 /*Projects
 --------------------------------*/
 .projects {
- background-color: #C5FFFD;
-}
-
-
-.projects a {
-  color: navy;
+ background-color: #b9bcc4;
 }
 
 .projects .btn {
   color: #C5FFFD;
-  background-color: #EB8A90;
+  background-color: #c44951;
   text-decoration: none;
-  padding: .25em;
-  border-radius: 4px;
-  margin: .5em;
-
+  padding: .5em;
+  border-radius: 20px;
+  margin: 1em;
+  display: inline-block;
+  float: right;
 }
 
 .projects .btn:hover {
   opacity: .8;
 }
 
-.project-block-one {
-  width: 30%;
+.project img {
   float: left;
+  padding: .75em 2em 0 0 ;
 }
 
-.project-block-two {
-  width: 30%;
-  float: left;
-}
-
-.project-block-three {
-  width: 30%;
-  float: left;
-}
-
-.projects:after {
-  content: "";
-  display: table;
+.project {
+  overflow: hidden;
   clear: both;
 }
+
+.project h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.project p {
+  padding-top: 2em;
+}
+
 
 /*Work Experience
 --------------------------------*/
 .work-exp {
-  background-color: #C5FFFD;
+  background-color: #c44951;
+  color: #fff;
+  float: left;
+  width: 50%;
+  min-height: 340px;
 }
 
 /*Education
 --------------------------------*/
 .education {
-  background-color: #C5FFFD;
+  background-color: #c44951;
+  color: #fff;
+  float: left;
+  width: 50%;
+}
+
+.school {
+  text-align: center;
 }
 
 /*Contact info
 --------------------------------*/
 footer {
+  clear: both;
   background-color: #40434E;
-  color: #C5FFFD;
+  color: #fff;
   padding: 1em;
 }
