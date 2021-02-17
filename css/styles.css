@@ -67,16 +67,67 @@ section h2 {
   margin: 0 auto;
 }
 
-/*Profile
+/*Profile & Nav Bar Styling
 --------------------------------*/
 header {
   background-color: #c44951;
   color: #fff;
-  padding: 2em;
+  padding-top: 2em;
 }
 
 header h1 {
   font-size: 3em;
+}
+
+nav {
+  width: 100%;
+  background-color: #40434E;
+  margin-top: 1em;
+}
+
+nav ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;             
+  position: relative;                  
+  padding: 1em;           
+  background-color: #40434E;            
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #CD656C;
+  text-decoration: underline;
+}
+
+nav ul li ul {
+  padding: 0;                        
+  position: absolute;             
+  top: 62px;                         
+  left: -10000px;                  
+  width: 200px;   
+}
+
+nav ul li ul li {
+  background-color: rgb(64, 67, 78, 0.75);         
+  display: block;                  
+  color: #FFE66D;    
+}
+
+nav ul li ul li:hover {
+  background-color: #CD656C;
+}
+
+nav ul li:hover ul {
+  display: block;
+  left: 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
 
 /*Projects
